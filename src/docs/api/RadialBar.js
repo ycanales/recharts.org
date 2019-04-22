@@ -133,6 +133,20 @@ export default {
         'zh-CN': '动画缓动函数的类型。',
       },
     }, {
+      name: 'cornerRadius',
+      type: 'Number | String',
+      isOptional: true,
+      desc: {
+        'en-US': 'Radius in px of the corners of the bar. If the diameter results longer than the bar width it will be shortened.',
+      },
+    }, {
+      name: 'forceCornerRadius',
+      type: 'Boolean',
+      isOptional: true,
+      desc: {
+        'en-US': 'If radial bar results shorter than both rounded corners, draw a circle instead of a bar with straight edges',
+      },
+    }, {
       name: 'onClick',
       type: 'Function',
       isOptional: true,
